@@ -1,5 +1,3 @@
-'use strict';
-
 // Primera forma
 // export default ()=>{
 //     return{
@@ -10,15 +8,10 @@
 
 // segunda forma
 const obtenerUsario =()=>{
-    return {
+    return{
         nombre:"juan",
         correo:"juan@gmail.com",
     };
 };
 
-/*
-    Named Imports
-*/
-// import { nombre as nombreImportado, obtenerPost } from "./namedExport";
-
-console.log(obtenerUsario());
+export default obtenerUsario;

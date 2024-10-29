@@ -10,7 +10,18 @@
     Namespace Imports
 */
 
-import * as datos from "./namedExport";
+// import * as datos from "./namedExport";
 
-console.log(datos.nombre);
-console.log(datos.obtenerPost());
+// console.log(datos.nombre);
+// console.log(datos.obtenerPost());
+
+/*
+    Export default
+w*/
+
+// import obtenerUsuario from "./defaultExport";
+// console.log(obtenerUsuario());
+
+import users from "./defaultExport";
+console.log(users());
+
